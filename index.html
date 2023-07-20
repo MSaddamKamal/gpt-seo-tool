@@ -1,0 +1,48 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="metaSEOGen.css" />
+    <script src="metaSEOGen.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="page_title">
+        Meta tag generator with ChatGPT
+    </div>
+    <div>
+    </div>
+    <form>
+
+        <label for="url"></label>
+        <input type="text" class="form-control" id="url" placeholder="Write a url">
+        <div class="center">
+            <input type="button" class="btn btn-primary" id="gen" value="Generate">
+            <input type="button" class="btn btn-primary" id="reset" value="Reset">
+        </div>
+        <div id="status"><br>
+        </div>
+        <div><label for="title">TITLE </label>
+            <input type="text" class="form-control" id="title" disabled>
+            <div id="TitleCopied">
+            </div>
+            <input type="button" class="btn btn-primary" onclick="copy('title')" value="Copy Title">
+
+        </div>
+
+        <div><label for="desc">DESCRIPTION </label><textarea id="desc" disabled></textarea>
+            <div id="descCopied">
+            </div>
+            <input type="button" class="btn btn-primary" onclick="copy('desc')" value="Copy Meta Desc">
+
+        </div>
+    </form>
+</body>
+
+</html>
