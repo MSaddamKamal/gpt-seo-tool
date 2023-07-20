@@ -5,6 +5,10 @@
 
 It is a simple seo tool that can help in generating title and meta description for your website.
 
+## Demo
+![Demo1](https://raw.githubusercontent.com/MSaddamKamal/wireMedia/main/seo-gpt.JPG)
+
+
 ## Technology Stack
 It is built on the following techstack.
 * Javascript
